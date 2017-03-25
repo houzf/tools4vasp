@@ -1,0 +1,36 @@
+6  
+20  20  20  10  20
+X  0.5    0.0    0.5 
+G  0.0    0.0    0.0
+L  0.5    0.5    0.5
+W  0.5    0.25   0.75
+K  0.375  0.375  0.75
+G  0.0    0.0    0.0
+0.000000000  1.712250000  1.712250000    -0.292013433  0.292013433  0.292013433
+1.712250000  0.000000000  1.712250000     0.292013433 -0.292013433  0.292013433
+1.712250000  1.712250000  0.000000000     0.292013433  0.292013433 -0.292013433
+-20.0  15.0
+0.000
+
+#############comment
+1 line: nhighk   !how many high symmetry k-points
+2     : ndiv(i)  !number of grid points between two symmetry k-points
+3     : labhk(i), phighk(i,j)   !label of high sysmmetry k-points, coordinates 
+......
+9     : a(i,j),b(i,j)   !direct & reciprocal lattice vectors 
+......
+12    : emin, emax   ! energy width of band plot
+13    : efermi       ! fermi level
+##############
+
+\\\\X-----Gam-----L-----W-----K-----Gam
+      Delta   ^      Q     N    Xigam
+  1,21,41,61,71,91
+  X,G,L,W,K,G
+FCC
+--------------------------------------------
+W:0.5    0.25   0.75
+G:0.0    0.0    0.0
+X:0.5    0.0    0.5 
+K:0.375  0.375  0.75
+L:0.5    0.5    0.5
